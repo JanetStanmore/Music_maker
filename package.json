@@ -1,0 +1,30 @@
+{
+  "name": "janetstanmore-music-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "mobile:install": "cd mobile && npm install",
+    "mobile:start": "cd mobile && npm run start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "next": "14.2.29",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tone": "^15.1.22",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "18.3.22",
+    "@types/react-dom": "18.3.7",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.29",
+    "typescript": "5.8.3"
+  }
+}
